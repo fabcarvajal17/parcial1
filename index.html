@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PRUEBA</title>
+    <!-- Enlace a Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"
+    />
+
+    <!-- Enlace a Bootstrap JavaScript (jQuery es requerido) -->
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <!-- Agrega un estilo personalizado para alinear el contenido a la derecha -->
+    <style>
+      .menu {
+        border: 1px solid #ddd;
+        padding: 10px;
+        background-color: #f5f5f5;
+      }
+      .contenido {
+        border: 1px solid #ddd;
+        padding: 10px;
+        background-color: #fff;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- start body -->
+    <div class="container">
+      <!-- Primera fila -->
+      <div class="row">
+        <!-- Columna 1 - Imagen y Navegación -->
+        <div class="col-xs-2 border">
+          <!-- logo -->
+          <img
+            src="imagenes/Ferrari_488_GTB.jpg"
+            alt="imagen html"
+            width="100px"
+            height="100px"
+          />
+        </div>
+        <!-- Columna 2 - Navegación -->
+        <div class="col-xs-10 border">
+          <!-- navegador -->
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"
+                ><strong><i>Ferrari</i></strong></a
+              >
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span> Navegar
+              </button>
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Historia
+              </a>
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="home"
+                role="button"
+                data-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Home
+              </a>
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="ver"
+                role="button"
+                data-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Ver
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Something else here</a>
+              </ul>
+              <form class="d-flex">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </nav>
+        </div>
+      </div>
+
+      <!-- Segunda fila -->
+      <div class="row">
+        <!-- Columna 1 - Menú -->
+        <div class="col-xs-3 border menu">
+          <h2>Enlaces de interés</h2>
+          <ul>
+            <li><a href="https://store.ferrari.com/es-co/piezas-de-coleccion/objetos-de-coleccion" target="_blank">Ver colecciones</a></li>
+            <li><a href="https://www.ferrari.com/es-ES/auto/gama" target="_blank">Ultimos autos</a></li>
+            <li><a href="https://www.ferrari.com/es-ES/auto/modelos-del-pasado" target="_blank">Ver autos clásicos</a></li>
+            <li><a href="https://www.ferrari.com/es-ES/magazine/articles/new-language-of-ferrari-design" target="_blank">Ver diseños</a></li>
+            <li><a href="https://bogota.ferraridealers.com/es-ES/" target="_blank">Catalogo de ventas</a></li>
+          </ul>
+        </div>
+        <!-- Columna 2 - Contenido -->
+        <div class="col-xs-9 border contenido">
+          <h4 style="color: brown; font-size: 24px;"><center>Quienes somos</center></h4>
+          <p style="color:darkred; font-size: large;">
+            <i
+              >La Scuderia Ferrari empezó patrocinando a pilotos y automóviles
+              de Alfa Romeo y Fiat. Se convirtió en Ferrari S.A. en el año 1969,
+              en el momento en el que Fiat Group entró a ser parte del Consejo
+              de Administración y se hizo accionista de la empresa. Algo de lo
+              que debemos hablar en este post es su identidad visual. El
+              famosísimo símbolo de Ferrari, el Cavallino Rampante, es un
+              caballo negro en su máxima expresión de fuerza sobre un fondo
+              amarillo. Para conocer la historia de este símbolo nos remontamos
+              a 1923, año en el que Enzo ganó una carrera en el circuito de
+              Savio (Ravenna), donde conoció a la Condesa Paolina, madre del
+              Conde Francesco Baracca, héroe nacional de la Aeronautica Militare
+              italiana en la Primera Guerra Mundial, quien solía pintar un
+              caballo en los laterales de sus aviones. La Condesa pidió a Enzo
+              que usara dicho caballo en sus coches, a modo de amuleto. El
+              caballo original estaba dibujado en color rojo sobre una nube
+              blanca, pero Enzo Ferrari prefirió pintarlo en negro como señal de
+              luto por los aviadores fallecidos en dicha guerra, además de
+              añadirle un fondo amarillo que representaba al color local de
+              Módena, su ciudad de nacimiento. Sin duda, una marca que ha
+              marcado un hito en la historia del automóvil y fuera de él,
+              creando un estilo de vida propio.</i
+            >
+          </p>
+          <br />
+          <p style="color: darkviolet; font-size: medium;">
+            Enzo empezó el desarrollo de varios vehículos sin precedentes, de
+            velocidades nunca antes vistas. Ferrari empezó a ganar casi todas
+            las competiciones, pero los costes de las carreras eran enormes y a
+            Ferrari se le acababa el dinero. Por esto, a pesar de su total falta
+            de interés en la idea, Ferrari empezó a vender versiones de turismos
+            de sus coches. Pero las velocidades nunca antes vistas también
+            traerían consecuencias.
+            <small
+              >Las carreras de coches eran un negocio peligroso y empezaron a
+              morir pilotos en los circuitos, cada vez en una proporción mayor.
+              En 1957 en la celebración de la Mille Miglia, una popular carrera
+              de la época, participaban 5 Ferrari entre más de 250
+              participantes. Más de 10 millones de personas se acercaron a ver
+              pasar los automóviles a lo largo del circuito. </small
+            >Por su extensión era casi imposible controlar a todo el público. El
+            Ferrari más potente, el 335 de 4,1 litros al mando del prometedor
+            piloto español Alfonso de Portago, perdió el control y se fue hacia
+            el público. Más de 15 personas murieron, incluido, por supuesto, el
+            piloto, y muchas más quedaron heridas. Enzo Ferrari fue acusado de
+            homicidio sin premeditación. Cuatro años después se retiraron los
+            cargos.
+          </p>
+          <br/>
+          <p style="color: forestgreen; font-size:x-small">
+            En 1961 Ford se decidió a competir con Ferrari, obteniendo
+            resultados diversos. Ferrari empezó a perder y el coste de mantener
+            la Scuderia aumentaba vertiginosamente. A pesar de la venta de
+            turismos el dinero se agotaba. En 1967 la Scuderia Ferrari estaba al
+            borde de la quiebra. Entonces se acercó al grupo Fiat por ayuda
+            económica. El acuerdo con Fiat contemplaba que Enzo se encargaría de
+            la división de automóviles de carrera y Fiat fabricaría los turismos
+            de Ferrari. Hacia el 1969 cada parte contaba con el 50 % de las
+            acciones de Ferrari (en 1988 el Grupo Fiat se convertiría en el
+            accionista mayoritario). Oficina de Enzo Ferrari en Maranello. En
+            1963 Enzo Ferrari construyó el Instituto Professionale per
+            l'Industria e Artigianato, una escuela de aprendizaje en Maranello.
+            En 1972 construyó la pista de pruebas de Fiorano. En 1978 muere
+            Laura Dominica Garello y Ferrari se organizó con la hasta ahora su
+            amante Lina Lardi, su hijo Piero y su nieta Antonella. Enzo enfermó
+            gravemente del riñón en 1978, tras lo que permanecía mucho tiempo en
+            cama. El 14 de agosto de 1988 sobre la una de la tarde, Enzo Ferrari
+            muere en su cama rodeado de su familia.
+          </p><br>
+          <center><img src="imagenes/Ferrari_488_GTB (1).jpg" alt="imagen html" height="300px" width="300px"></center><br>
+          <center><img src="imagenes/descarga.jpg" alt="imagen html"height="300px" width="300px"></center><br>
+          <table border="1" cellspacing="0">
+            <tr>
+                <td><b><center>Ultimos lazamientos</center></b></td>
+                <td><b><center>Velocidad final</center></b></td>
+                <td><b><center>Precio</center></b></td>
+            </tr>
+            <tr>
+                <td>Ferrari 812 GTS</td>
+                <td>Ferrari Pourosangue</td>
+                <td>Ferrari SF90 Stradale</td>
+            </tr>
+            <tr>
+                <td>340km/H</td>
+                <td>310km/H</td>
+                <td>320km/h</td>
+            </tr>
+            <tr>
+                <td>396.786€</td>
+                <td>440.000€</td>
+                <td>770.000€</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <!-- Tercera fila -->
+      <div class="row">
+        <!-- Columna 1 - Sección 1 -->
+        <div class="col-xs-4 border">Seccion 1<br>
+        <p>Fabian Carvajal Arevalo</p>
+        <p>fabiancarvajal970@gmail.com</p>
+        <p>3143576642</p>
+        </div>
+        <!-- Columna 2 - Sección 2 -->
+        <div class="col-xs-4 border">Seccion 2 <br>
+            <a href="https://l.instagram.com/?u=https%3A%2F%2Fwww.tiktok.com%2F%40fabiancarvajal18%3F_t%3D8eImlk1hqEQ%26_r%3D1&e=AT1ADOMtFbgNh2pbv0XFlxt-vNlEqnsmbz-_TwnSNw8kWsRyBNATFA5WMRfvXauJuhu0b3UUkGZ9Gp8tp_y0UWnMxLW4S2kSKzo0Mg">TikTok</a><br>
+            <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Ffabian_carvajal_21%3Ffbclid%3DIwAR00IVhKrh87t8nWABxqgGl46LWyr2RDgbzPn8huSaXyBVb-dyvrGXS9f04&h=AT2CH91iMUYYJ-PFsLnusF5Ppyd7gB_M_qKD7ykzf9HraCvnssfcl1J4o8xjHZZJhMqax43Ogy591eRpfAk9_FeQIpMaKPZBxzKaOJQrlpIZy59yQHGoRSEVbfXi_GUZeIIo">Instagram</a>
+        </div>
+        <!-- Columna 3 - Sección 3 -->
+        <div class="col-xs-4 border">Seccion 3 <br>
+        <div id="miFormulario" >
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre"><br>
+            <label for="telefono">Telefono</label>
+            <input type="number" id="telefono"><br>
+            <label for="correo">Correo Electrónico</label>
+            <input type="email" id="correo"><br>
+
+            <button type="button" id="enviar">Enviar</button>
+        </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
